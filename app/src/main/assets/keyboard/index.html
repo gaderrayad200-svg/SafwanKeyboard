@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Safwan Keyboard 2027</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="kb-root" dir="rtl">
+
+  <div class="quickbar" id="quickbar">
+    <button class="qb-btn qb-ai" id="btn-ai" hidden>
+      <span class="qb-icon">✨</span><span>Safwan AI</span>
+    </button>
+    <button class="qb-btn qb-voice" id="btn-voice" hidden>
+      <span class="qb-icon">🎙️</span><span id="voice-label">صوتي</span>
+    </button>
+    <button class="qb-btn" data-tab="tashkeel" id="btn-tashkeel">
+      <span class="qb-icon">✒️</span><span id="tashkeel-label">التشكيل</span>
+    </button>
+    <button class="qb-btn" data-tab="quickReplies" id="btn-quickreplies">
+      <span class="qb-icon">💬</span><span id="quickreplies-label">الردود</span>
+    </button>
+    <button class="qb-btn" data-tab="emoji" id="btn-emoji">
+      <span class="qb-icon">😀</span><span>Emoji</span>
+    </button>
+    <button class="qb-btn" data-tab="stickers" id="btn-stickers">
+      <span class="qb-icon">🤖</span><span id="stickers-label">ملصقات</span>
+    </button>
+    <div id="predictions-row" class="predictions-row"></div>
+  </div>
+
+  <div id="panel-keyboard" class="panel keyboard-panel">
+    <div id="keys-container"></div>
+    <div class="bottom-row">
+      <button class="key key-util" id="key-symbols">123</button>
+      <button class="key key-util key-globe" id="key-globe">🌐</button>
+      <button class="key key-space" id="key-space">مسافة</button>
+      <button class="key key-util key-enter" id="key-enter">↵</button>
+    </div>
+  </div>
+
+  <div id="panel-emoji" class="panel grid-panel" hidden></div>
+  <div id="panel-stickers" class="panel grid-panel stickers-grid" hidden></div>
+  <div id="panel-tashkeel" class="panel grid-panel tashkeel-grid" hidden></div>
+  <div id="panel-quickReplies" class="panel grid-panel quickreplies-grid" hidden></div>
+
+  <div class="footer-status">
+    <span class="dot"></span>
+    <span id="footer-text">100% Offline &amp; Secure</span>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
