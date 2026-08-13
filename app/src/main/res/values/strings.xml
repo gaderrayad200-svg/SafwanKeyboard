@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Safwan Keyboard 2027</string>
+    <string name="subtype_arabic">العربية</string>
+    <string name="subtype_english">English</string>
+
+    <string name="onboarding_title">صفوان كيبورد 2027</string>
+    <string name="onboarding_subtitle">لوحة المفاتيح السيبرانية المستقبلية — تعمل بدون إنترنت بالكامل</string>
+    <string name="step1_title">الخطوة 1: تفعيل لوحة المفاتيح</string>
+    <string name="step1_desc">فعّل صفوان كيبورد من إعدادات لوحات المفاتيح في أندرويد</string>
+    <string name="step1_btn">فتح إعدادات لوحات المفاتيح</string>
+    <string name="step2_title">الخطوة 2: اختيارها كلوحة نشطة</string>
+    <string name="step2_desc">اختر صفوان كيبورد كلوحة المفاتيح الحالية لأي حقل كتابة</string>
+    <string name="step2_btn">اختيار لوحة المفاتيح</string>
+    <string name="status_enabled">✓ لوحة المفاتيح مفعّلة</string>
+    <string name="status_disabled">لوحة المفاتيح غير مفعّلة بعد</string>
+    <string name="status_active">✓ صفوان كيبورد هي اللوحة النشطة حالياً</string>
+    <string name="status_not_active">لوحة أخرى هي النشطة حالياً</string>
+</resources>
