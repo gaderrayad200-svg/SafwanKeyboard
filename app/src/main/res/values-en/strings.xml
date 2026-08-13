@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Safwan Keyboard 2027</string>
+    <string name="subtype_arabic">Arabic</string>
+    <string name="subtype_english">English</string>
+
+    <string name="onboarding_title">Safwan Keyboard 2027</string>
+    <string name="onboarding_subtitle">The futuristic cyber keyboard — 100% offline</string>
+    <string name="step1_title">Step 1: Enable the keyboard</string>
+    <string name="step1_desc">Turn on Safwan Keyboard from Android\'s keyboard settings</string>
+    <string name="step1_btn">Open Keyboard Settings</string>
+    <string name="step2_title">Step 2: Set it as active</string>
+    <string name="step2_desc">Choose Safwan Keyboard as your current input method</string>
+    <string name="step2_btn">Choose Keyboard</string>
+    <string name="status_enabled">✓ Keyboard is enabled</string>
+    <string name="status_disabled">Keyboard is not enabled yet</string>
+    <string name="status_active">✓ Safwan Keyboard is currently active</string>
+    <string name="status_not_active">Another keyboard is currently active</string>
+</resources>
