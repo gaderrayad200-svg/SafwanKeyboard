@@ -19,16 +19,19 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
+      - name: Change package name to match Kotlin
+        run: |
+          sed -i 's/package="com.safwan.keyboard"/package="com.safwan.keyboard2027"/g' app/src/main/AndroidManifest.xml
+        continue-on-error: true
+
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
-        continue-on-error: true
 
       - name: Build Debug APK
         run: ./gradlew assembleDebug --no-daemon
-        continue-on-error: true
 
-      - name: Find and Upload APK
+      - name: Upload Debug APK
         uses: actions/upload-artifact@v4
         with:
           name: safwan-keyboard-2027-debug-apk
-          path: "**/build/outputs/apk/debug/*.apk"
+          path: app/build/outputs/apk/debug/app-debug.apk
